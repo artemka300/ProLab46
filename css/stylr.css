@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.corz img{
+    width: 50px;
+    height: 50px;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu2{
+   display: flex;
+   align-items: center;
+   width: 10%;
+   justify-content: space-between;
+
+}
+.menu2 a{
+    color: black;
+}
+.corz{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.menutex{
+    margin-left: 10px;
+width: 45%;
+display: flex;
+justify-content: space-around;
+
+}
+
+.promo2{
+    padding: 15px 0 30px 0;
+}
+.slader{
+    width: 100vw;
+    height: 450px;
+    background: coral;
+    overflow: hidden;
+    
+}
+.text{
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+.t1{
+    font-size: 35px;
+}
+.t2{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 18px;
+}
+.fjjf{
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+.fjjf:hover{
+    transition: 0.4s;
+    background: white;
+    color: black;
+}
+.slader_line{
+    width: 200%;
+    height: 100%;
+    background-color: blue;
+    position: relative;
+    left: 0%;
+    transition: all ease 1s;
+    padding: 20px;
+    display: flex;
+    
+    
+}
+
+
+
+
+
+
+
+.nexe{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    z-index: 3;
+}
+.bax{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+}
+
+.promo3{
+    width: 100%;
+    display: flex;
+}
+.dor{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.dor1{
+    width: 50%;
+    height: 30px;
+    padding: 0  0 0 5px;
+}
+.dor2{
+    border: none;
+    background: none;
+    font-size: 20px;
+    margin: 0 0 0 25px;
+    width: 70px;
+}
+.dor2:hover{
+    background: blue;
+    color: white;
+    transition: all ease 0.4s;
+}
+
+
+.dir{
+    margin: 30px 0 ;
+    width: 100%;
+    display: flex;
+    background: blue;
+    padding: 30px 0;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+.puk img{
+    width: 250px;
+}
+.puk p{
+    color: white;
+    font-size: 20px;
+    width: 60%;
+}
+.puk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dor_2:hover{
+width: 120px;
+}
+.menu_2{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .menu{
+        display: none;
+    }
+    .menu_2{
+        display: flex;
+        width: 100%;
+        z-index: 3;
+    }
+.menu_1{
+    width: 100%;
+}
+    .textt{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 0px;
+        transition:0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        overflow: hidden;
+        max-width: 100%;
+        
+    }
+    .h300{
+        height: 100px;
+    }
+    .pok{
+        display: flex;
+        width: 100%;
+        justify-content:space-between;
+    }
+    .dir{
+        flex-direction: column;
+    }
+}
